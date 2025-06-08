@@ -115,10 +115,10 @@ function obfuscateURL(element) {
         input = input.replace('obs.ninja/', '');
     }
     
-    if (input.startsWith("https://vdo.ninja/")) {
-        input = input.replace('https://vdo.ninja/', 'vdo.ninja/');
-    } else if (input.startsWith("http://vdo.ninja/")) {
-        input = input.replace('http://vdo.ninja/', 'vdo.ninja/');
+    if (input.startsWith("https://live.remotevm.ir/")) {
+        input = input.replace('https://live.remotevm.ir/', 'live.remotevm.ir/');
+    } else if (input.startsWith("http://live.remotevm.ir/")) {
+        input = input.replace('http://live.remotevm.ir/', 'live.remotevm.ir/');
     } 
 
     var key = "OBSNINJAFORLIFE";
@@ -155,12 +155,12 @@ function betaURL(element) {
         input = input.replace('obs.ninja/', 'https://obs.ninja/beta/');
     }
     
-    if (input.startsWith("https://vdo.ninja/")) {
-        input = input.replace('https://vdo.ninja/', 'https://vdo.ninja/beta/');
-    } else if (input.startsWith("http://vdo.ninja/")) {
-        input = input.replace('http://vdo.ninja/', 'https://vdo.ninja/beta/');
-    } else if (input.startsWith("vdo.ninja/")) {
-        input = input.replace('vdo.ninja/', 'https://vdo.ninja/beta/');
+    if (input.startsWith("https://live.remotevm.ir/")) {
+        input = input.replace('https://live.remotevm.ir/', 'https://live.remotevm.ir/');
+    } else if (input.startsWith("http://live.remotevm.ir/")) {
+        input = input.replace('http://live.remotevm.ir/', 'https://live.remotevm.ir/');
+    } else if (input.startsWith("live.remotevm.ir/")) {
+        input = input.replace('live.remotevm.ir/', 'https://live.remotevm.ir/');
     }
     return input;
 }
