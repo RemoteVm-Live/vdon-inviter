@@ -123,7 +123,7 @@ function obfuscateURL(element) {
 
     var key = "OBSNINJAFORLIFE";
     var encrypted = CryptoJS.AES.encrypt(input, key);
-    var output = "https://invite.cam/" + encrypted.toString();
+    var output = "https://invite.remotevm.ir/" + encrypted.toString();
     return output;
 }
 function toggleBeta(type="url") {
